@@ -1,0 +1,449 @@
+@charset "utf-8";
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    margin: 0;
+    padding: 7px 0 0;
+    position: relative;
+}
+body, th, td, .p1, .p2 {
+    font-family: arial;
+}
+p, form, ol, ul, li, dl, dt, dd, h3 {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+input {
+    -moz-box-sizing: border-box;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+table, img {
+    border: 0 none;
+}
+td {
+    font-size: 9pt;
+    line-height: 18px;
+}
+em {
+    color: #CC0000;
+    font-style: normal;
+}
+a em {
+    text-decoration: underline;
+}
+cite {
+    color: #008000;
+    font-style: normal;
+}
+.m, a.m {
+    color: #666666;
+}
+a.m:visited {
+    color: #660066;
+}
+.g, a.g {
+    color: #008000;
+}
+.c {
+    color: #7777CC;
+}
+.f14 {
+    font-size: 14px;
+}
+.f10 {
+    font-size: 10.5pt;
+}
+.f16 {
+    font-size: 16px;
+}
+#u, #head, #tool, #search, #foot {
+    font-size: 12px;
+}
+.p1 {
+    line-height: 120%;
+    margin-left: -12pt;
+}
+.p2 {
+    line-height: 120%;
+    margin-left: -12pt;
+    width: 100%;
+}
+#out {
+}
+#in {
+}
+#wrapper {
+    min-width: 880px;
+}
+#container {
+    padding-left: 20px;
+}
+#u {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    white-space: nowrap;
+    z-index: 299;
+}
+#u_m {
+    color: #0000CC;
+    cursor: pointer;
+}
+#u_ms {
+    text-decoration: underline;
+}
+#u_m_tip {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #9A99FF;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 40px;
+    top: 24px;
+    width: 100px;
+    z-index: 302;
+}
+#u_m_tip a {
+    border-bottom: 1px solid #E6E6E6;
+    color: #0001CF;
+    display: block;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 0 10px;
+    text-decoration: none;
+    width: 100%;
+}
+#u_m_tip a:hover {
+    background: none repeat scroll 0 0 #D9E1F6;
+}
+#u_m_tip a.last {
+    border-bottom: 0 none;
+}
+#head {
+    padding-left: 20px;
+}
+.fm {
+    clear: both;
+    position: relative;
+    z-index: 297;
+}
+.nv {
+    height: 45px;
+    position: relative;
+    z-index: 298;
+}
+.nv .logo {
+    float: left;
+    margin-right: 20px;
+}
+.nv .tab {
+    float: left;
+    line-height: 18px;
+    padding: 20px 0 0;
+}
+.nv a, .nv b, .btn, #page, #more {
+    font-size: 14px;
+}
+.nv a {
+    color: #0000CC;
+}
+.i {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("http://www.baidu.com/img/i-1.0.0.png") no-repeat scroll -304px 0 transparent;
+    border-color: #7B7B7B #B6B6B6 #B6B6B6 #7B7B7B;
+    border-style: solid;
+    border-width: 1px;
+    font: 16px arial;
+    height: 32px;
+    margin-right: 5px;
+    padding: 3px 7px;
+    vertical-align: top;
+    width: 536px;
+}
+.btn {
+    background: url("http://www.baidu.com/img/i-1.0.0.png") repeat scroll 0 0 #DDDDDD;
+    border: 0 none;
+    cursor: pointer;
+    height: 32px;
+    padding: 0;
+    width: 95px;
+}
+.btn_h {
+    background-position: -100px 0;
+}
+.btn_wr {
+    background: url("http://www.baidu.com/img/i-1.0.0.png") no-repeat scroll -202px 0 transparent;
+    display: inline-block;
+    height: 34px;
+    width: 97px;
+}
+.seth {
+    display: none;
+    margin-left: 22px;
+}
+.seth a {
+    color: #0000CC;
+}
+#tb_mr {
+    color: #0000CC;
+    cursor: pointer;
+    position: relative;
+    z-index: 298;
+}
+#tb_mr b {
+    font-weight: normal;
+    text-decoration: underline;
+}
+#tb_mr small {
+    font-size: 11px;
+}
+#more {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #9A99FF;
+    display: none;
+    height: 100px;
+    left: 452px;
+    outline: medium none;
+    overflow: hidden;
+    position: absolute;
+    top: 45px;
+    width: 58px;
+    z-index: 298;
+}
+#more a {
+    color: #0001CF;
+    display: block;
+    height: 25%;
+    line-height: 24px;
+    padding: 0 0 0 7px;
+    text-decoration: none;
+    width: 53px;
+}
+#more a span {
+    font-family: "宋体";
+}
+#more a:hover {
+    background: none repeat scroll 0 0 #D9E1F6;
+}
+#more div {
+    background: none repeat scroll 0 0 #CCCCFF;
+    height: 1px;
+    margin: 0 3px;
+    overflow: hidden;
+}
+#page {
+    white-space: nowrap;
+}
+#page {
+    word-spacing: 4px;
+}
+#page .n {
+    font-size: 16px;
+}
+#rs {
+    background: none repeat scroll 0 0 #EFF2FA;
+    margin: 20px 0 0;
+    padding: 8px 0;
+    width: 100%;
+}
+#rs td {
+    width: 5%;
+}
+#rs th {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 19px;
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+}
+#rs .tt {
+    font-weight: bold;
+    padding: 0 10px 0 20px;
+}
+#search {
+    padding: 35px 0 16px 20px;
+}
+#search .btn_wr {
+    vertical-align: middle;
+}
+#foot {
+    background: none repeat scroll 0 0 #E6E6E6;
+    color: #7777CC;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+#foot span {
+    color: #666666;
+}
+.site_tip {
+    background: url("http://www.baidu.com/img/bg-1.0.0.gif") no-repeat scroll 0 0 transparent;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    padding: 3px 0 5px 72px;
+}
+.to_zhidao, .to_tieba {
+    background: url("http://www.baidu.com/img/bg-1.0.0.gif") no-repeat scroll 0 -68px transparent;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px 0 0;
+    padding: 0 0 0 32px;
+}
+.to_tieba {
+    background-position: 0 -102px;
+}
+.f {
+    font-size: 100%;
+    line-height: 115%;
+    width: 33.7em;
+    word-wrap: break-word;
+}
+.h {
+    margin-left: 8px;
+    width: 100%;
+}
+.r {
+    width: 238px;
+}
+.t {
+    font-size: medium;
+    font-weight: normal;
+}
+.pl {
+    font-size: 14px;
+    height: 8px;
+    padding-left: 3px;
+    padding-right: 2px;
+}
+.mo, a.mo:link, a.mo:visited {
+    color: #666666;
+    font-size: 100%;
+    line-height: 10px;
+}
+.htb {
+    margin-bottom: 5px;
+}
+.jc a {
+    color: #CC0000;
+}
+a font[size="3"] font, font[size="3"] a font {
+    text-decoration: underline;
+}
+div.blog, div.bbs {
+    color: #707070;
+    padding-top: 3px;
+}
+.result {
+    table-layout: fixed;
+    width: 33.7em;
+}
+.result-op .f {
+    word-wrap: normal;
+}
+.nums {
+    color: #999999;
+    font-size: 12px;
+}
+.tools {
+    position: absolute;
+    top: 10px;
+    width: 220px;
+}
+#mHolder {
+    display: none;
+    margin-left: 9px;
+    margin-right: -12px;
+    position: relative;
+    top: -18px;
+    width: 62px;
+    z-index: 296;
+}
+#mCon {
+    background: url("http://www.baidu.com/img/bg-1.0.0.gif") no-repeat scroll right -133px transparent;
+    cursor: pointer;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 18px 0 0;
+    position: absolute;
+    right: 7px;
+    top: 3px;
+}
+#mCon span {
+    color: #0000CC;
+    cursor: default;
+    display: block;
+}
+#mCon .hw {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#mMenu {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #9A99FF;
+    display: none;
+    position: absolute;
+    right: 7px;
+    top: 28px;
+    width: 56px;
+}
+#mMenu a {
+    color: #0000CC;
+    display: block;
+    height: 100%;
+    line-height: 22px;
+    text-decoration: none;
+    text-indent: 6px;
+    width: 100%;
+}
+#mMenu a:hover {
+    background: none repeat scroll 0 0 #D9E1F6;
+}
+#mMenu .ln {
+    background: none repeat scroll 0 0 #CCCCFF;
+    font-size: 1px;
+    height: 1px;
+    line-height: 1px;
+    margin: 2px;
+    overflow: hidden;
+}
+.EC_mr15 {
+    margin-left: 0;
+}
+.pd15 {
+    padding-left: 0;
+}
+.map_1 {
+    font-size: 80%;
+    line-height: 145%;
+    width: 30em;
+}
+.map_2 {
+    font-size: 80%;
+    line-height: 145%;
+    width: 25em;
+}
+.favurl {
+    background-position: 0 1px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.dan_tip {
+    background: url("http://www.baidu.com/img/bg-1.0.0.gif") no-repeat scroll left -156px transparent;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 2px 0 0;
+    padding-left: 18px;
+
+}
+.dan_tip a {
+    color: #656565;
+}
+

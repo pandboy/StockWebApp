@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+		
+	<constant name="struts.i18n.encoding" value="gbk"/>
+	<constant name="struts.devMode" value="true"/>
+	<package name="default" namespace="/" extends="struts-default">
+ 	
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error"/>
+        </global-exception-mappings>
+		
+		<!--
+	<interceptors>
+		<interceptor name="myInterceptor" class="com.stock.action.MyInterceptor"></interceptor>
+	</interceptors>
+    -->
+		
+        <action name="searchStockAction" class="com.stock.action.SearchStockAction" method="queryStockInfos">
+            <result name="gotoStockResult">
+  							/search_result.jsp
+            </result>
+            <result name="homePage">/search_index.html</result>
+            <!--
+            <interceptor-ref name="myInterceptor"/>
+        --></action>
+    </package>
+
+</struts>

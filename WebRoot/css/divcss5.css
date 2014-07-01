@@ -1,0 +1,15 @@
+/*---------- base ---------*/
+/** { padding:0px; margin:0px; }*/
+html { background:#DDD; }
+/*
+body { font:12px Verdana, Arial, Tahoma; }
+*/
+img { border:none; }
+/*---------- stock ---------*/
+.w960 { width:96%;}
+/*------------- …œœ¬“∆∂Ø∆Ø∏° ----------------*/
+#go_top_bottom { width:22px; position:absolute; z-index:100001; }
+#go_top_bottom a { display:block; height:0; overflow:hidden; }
+#go_top_bottom #go_top { background:url(../images/go_top.gif) no-repeat 0 0; padding-top:69px; }
+#go_top_bottom #go_bottom { background:url(../images/go_top.gif) no-repeat 0 -69px; padding-top:70px; }
+

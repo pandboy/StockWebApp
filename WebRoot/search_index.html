@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html;charset=gb2312" http-equiv="Content-Type">
+<title>股讯垂直搜素 </title>
+<style>
+html{
+	overflow-y:auto}
+body{
+	font:12px arial;
+	text-align:center;
+	background:#fff}
+body,p,form,ul{
+	margin:0;
+	padding:0}
+body,form,#fm{
+	position:relative}
+td{
+text-align:left}
+img{border:0}
+a{color:#00c}
+a:active{color:#f60}
+#u{padding:7px 10px 3px 0;text-align:right}
+#m{width:680px;margin:0 auto}
+#nv{
+font-size:16px;
+margin:0 100px 4px;
+text-align:left;
+text-indent:117px}
+#nv a,#nv b,.btn,#lk{font-size:14px}
+#fm{
+padding-left:90px;
+text-align:left}
+#kw{
+width:404px;
+height:22px;
+padding:4px 7px;
+padding:6px 7px 2px\9;
+font:16px arial;
+background:url(http://www.baidu.com/img/i-1.0.0.png) no-repeat -304px 0;_background-attachment:fixed;
+border:1px solid #cdcdcd;
+border-color:#9a9a9a #cdcdcd #cdcdcd #9a9a9a;
+vertical-align:top}
+.btn{width:95px;height:32px;padding:0;padding-top:2px\9;border:0;background:#ddd url(http://www.baidu.com/img/i-1.0.0.png) no-repeat;cursor:pointer}
+.btn_h{background-position:-100px 0}
+#kw,.btn_wr{margin:0 5px 0 0}
+.btn_wr{width:97px;height:34px;display:inline-block;background:url(http://www.baidu.com/img/i-1.0.0.png) no-repeat -202px 0;_top:1px;*position:relative}
+#lk{
+margin:33px 0}
+#lk span{font:14px "宋体"}
+#lm{height:60px}
+#lh{margin:16px 100px 5px;word-spacing:3px}
+#mCon{height:18px;line-height:18px;position:absolute;right:7px;top:8px;top:10px\9;cursor:pointer;padding:0 18px 0 0;background:url(http://www.baidu.com/img/bg-1.0.0.gif) no-repeat right -134px;background-position:right -136px\9}
+#mCon span{color:#00c;cursor:default;display:block}
+#mCon .hw{text-decoration:underline;cursor:pointer}
+#mMenu{
+width:56px;
+border:1px solid #9a99ff;
+list-style:none;
+position:absolute;
+right:7px;
+top:28px;
+display:none;
+background:#fff}
+#mMenu a{width:100%;height:100%;display:block;line-height:22px;text-indent:6px;text-decoration:none}
+#mMenu a:hover{background:#d9e1f6}
+#mMenu .ln{
+height:1px;
+background:#ccf;
+overflow:hidden;
+margin:2px;
+font-size:1px;
+line-height:1px}
+#cp,#cp a{color:#77c}
+#sh{display:none;behavior:url(#default#homepage)}
+</style>
+<style type="text/css">
+#sd_1314443212396{border:1px solid #817F82;position:absolute;top:28px;left:0}
+#sd_1314443212396 table{width:100%;background:#fff;cursor:default}
+#sd_1314443212396 td{font:14px verdana;line-height:20px;text-indent:6px}
+#sd_1314443212396 td b{color:#333}
+#sd_1314443212396 .mo{background-color:#E2EAFF}
+#sd_1314443212396 .ml{background-color:#fff}
+</style>
+<script type="text/javascript" src="js/jquery-1.6.4.js"></script>
+</head>
+<body>
+<div align="left">
+
+	<a href="#">首页</a>
+ 	<a href="#">资讯</a>
+    <a href="#">帖子</a>
+    <a href="#">报告</a>
+    <a href="#">交易信息</a>
+    <a href="#">数据管理</a>
+    
+</div>
+<div id="m">
+<p id="lg">
+<img width="172" height="172" usemap="#mp" src="images/MainLogo.jpg"></p>
+
+<p id="nv">
+
+<b>股票资讯</b>
+<a href="search_gegu_index.html" name="tj_tieba">个股检索</a>
+<a href="fullTextSearch.html" name="tj_map">全文检索</a>
+</p>
+<!-- 转到想要去的地址，action-->
+<div id="fm">
+	<form action="searchStockAction.action" name="searchForm" method="post">
+		<input id="kw" type="text" maxlength="100" name="searchkeyword" auto  autocomplete="off">
+		<input type="hidden" value="0" name="searchtype">
+				<span class="btn_wr">
+						<input id="su" class="btn" type="submit" onMouseOut="this.className='btn'" 			onMouseDown="this.className='btn btn_h'" value="搜的一下">
+				</span>
+		<div id="sd_1314443212396" style="display: none;">
+			<table cellspacing="0" cellpadding="2">
+				<tbody>
+					<tr class="ml">
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</form>
+</div>
+</div>
+
+
+
+</body>
+</html>
